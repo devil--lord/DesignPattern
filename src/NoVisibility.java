@@ -23,7 +23,7 @@ public class NoVisibility {
 
         for (int i = 0; i < 50; i++) {
             new ReaderThread().start();
-            number = 42;
+            number = 43;
             ready = true;
         }
     }
